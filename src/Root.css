@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
+
+@font-face {
+  font-family: "SnasmW05-Regular";
+  src: url(./assets/font/fontfamily/Snasm\ W05\ Regular.ttf);
+}
+
+/* ============================fontfamilies======================================= */
+
+.ff_sans {
+  font-family: "SnasmW05-Regular";
+}
+.ff_manrope {
+  font-family: "Manrope";
+}
+.ff_raleway {
+  font-family: "Raleway";
+}
+/* ==================================================================================== */
+
+/* ==================ROOT================================= */
+:root {
+  /* ======================FONT ROOT============================= */
+  --fs-xxl: 52px;
+  --fs-xl: 44px;
+  --fs-lg: 32.507px;
+  --fs-md: 27.942px;
+  --fs-smd: 24px;
+  --fs-lsm: 20px;
+  --fs-sm: 16px;
+  --fs-xsm: 14px;
+
+  /* ======================COLOR ROOT============================== */
+
+  /* ===================text-color=========================== */
+
+  --color-lightestred: #e2e2e2;
+  --color-white: #fff;
+  --color-orange: rgba(255, 102, 0, 1);
+  --color-redwhite: rgba(255, 255, 255, 0.8);
+  /* =========================background color===================== */
+
+  --bg-orange: rgba(255, 102, 0, 1);
+  --bg-darkgrey: rgba(23, 23, 23, 1);
+  --bg-white: rgba(255, 255, 255, 0.098);
+  --bg-black: #000;
+  --bg-yellow: rgba(255, 184, 0, 0.74);
+}
+/* ======================Font classes=================================== */
+
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lsm {
+  font-size: var(--fs-lsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm) !important;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_smd {
+  font-size: var(--fs-smd);
+}
+/* ====================color classes============================ */
+.color_white {
+  color: var(--color-white);
+}
+.color_lightestred {
+  color: var(--color-lightestred);
+}
+
+.color_orange {
+  color: var(--color-orange);
+}
+.color_redwhite {
+  color: var(--color-redwhite);
+}
+/* ====================background classes========================= */
+.bg_darkgrey {
+  background-color: var(--bg-darkgrey);
+}
+.bg_whitelessop {
+  background-color: var(--bg-white);
+}
+.bg_orange {
+  background-color: var(--bg-orange);
+}
+.bg_black {
+  background-color: var(--bg-black);
+}
+.bg_yellow {
+  background-color: var(--bg-yellow);
+}
+
+@media(max-width:1248px){
+  :root {
+  /* ======================FONT ROOT============================= */
+  --fs-xxl: 42px;
+  --fs-xl: 35px;
+  --fs-lg: 32.507px;
+  --fs-md: 27.942px;
+  --fs-smd: 24px;
+  --fs-lsm: 16px;
+  --fs-sm: 16px;
+  --fs-xsm: 14px;
+  }
+}
+@media(max-width:992px){
+  :root {
+  /* ======================FONT ROOT============================= */
+  --fs-xxl: 42px;
+  --fs-xl: 24px;
+  --fs-lg: 32.507px;
+  --fs-md: 27.942px;
+  --fs-smd: 24px;
+  --fs-lsm: 16px;
+  --fs-sm: 16px;
+  --fs-xsm: 14px;
+  }
+}
+@media(max-width:768px){
+  :root {
+  /* ======================FONT ROOT============================= */
+  --fs-xxl: 37px;
+  --fs-xl: 22px;
+  --fs-lg: 32.507px;
+  --fs-md: 27.942px;
+  --fs-smd: 24px;
+  --fs-lsm: 16px;
+  --fs-sm: 16px;
+  --fs-xsm: 14px;
+  }
+}
+@media(max-width:576px){
+  :root {
+  /* ======================FONT ROOT============================= */
+  --fs-xxl: 32px;
+  --fs-xl: 20px;
+  --fs-lg: 32.507px;
+  --fs-md: 27.942px;
+  --fs-smd: 24px;
+  --fs-lsm: 16px;
+  --fs-sm: 16px;
+  --fs-xsm: 14px;
+  }
+}
